@@ -110,6 +110,7 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
                     _response,
                     style: TextStyle(
                       fontSize: 18,
+                      fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                   ),
