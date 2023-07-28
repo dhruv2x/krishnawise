@@ -60,14 +60,6 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
         title: Center(child: Text('KrishnaWise')),
         backgroundColor: Colors.blue[900],
         elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.info),
-            onPressed: () {
-              // Show about dialog
-            },
-          ),
-        ],
       ),
       body: Stack(
         fit: StackFit.expand,
@@ -106,9 +98,9 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
                   SizedBox(height: 20.0),
                   Center(
                     child: Text(
-                      'Note : Let krishna think 5-10 seconds.',
+                      'Note : Let Krishna think 5-10 seconds.',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.blue[900],
                         fontSize: 17,
                       ),
                     ),
