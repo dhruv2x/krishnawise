@@ -108,7 +108,9 @@ class _ChatGPTPageState extends State<ChatGPTPage> {
                   SizedBox(height: 20.0),
                   Text(
                     _response,
-                    style: TextStyle(fontSize: 18),
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),
                     textAlign: TextAlign.center,
                   ),
                 ],
